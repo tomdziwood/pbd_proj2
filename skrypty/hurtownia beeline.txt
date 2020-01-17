@@ -1,6 +1,6 @@
 beeline -n tomdziwood -u jdbc:hive2://localhost:10000/default
 
-drop database etl_airbnb cascade;
+drop database if exists etl_airbnb cascade;
 
 create database etl_airbnb;
 
@@ -28,20 +28,10 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';
 
-CREATE TABLE `d_city` (
-`id` int,
-`name` string)
-ROW FORMAT SERDE
-'org.apache.hadoop.hive.ql.io.orc.OrcSerde'
-STORED AS INPUTFORMAT
-'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
-OUTPUTFORMAT
-'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';
-
 CREATE TABLE `d_borough` (
 `id` int,
 `name` string,
-`city_id` int)
+`city` string)
 ROW FORMAT SERDE
 'org.apache.hadoop.hive.ql.io.orc.OrcSerde'
 STORED AS INPUTFORMAT
@@ -50,9 +40,9 @@ OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';
 
 CREATE TABLE `f_facts` (
-`room_type_id` int,
-`time_id` int,
-`borough_id` int,
+`id_borough` int,
+`id_room_type` int,
+`id_time` int,
 `rooms_total` int,
 `rooms_rented` int,
 `rooms_profit` float,
@@ -65,3 +55,6 @@ STORED AS INPUTFORMAT
 'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
 OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';
+
+show databases;
+show tables;
