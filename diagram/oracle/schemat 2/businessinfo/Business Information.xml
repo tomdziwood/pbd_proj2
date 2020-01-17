@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="CC76F937-3519-DDC1-A3B2-63F1826E07C9">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 18:21:30 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

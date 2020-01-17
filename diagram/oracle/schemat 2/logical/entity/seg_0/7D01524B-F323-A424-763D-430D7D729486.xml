@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D01524B-F323-A424-763D-430D7D729486" name="f_facts">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 19:32:31 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rooms_total" id="6887085E-32BD-16A0-065D-57A204682A6D">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 19:35:43 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rooms_rented" id="B87CAC91-F9F3-2468-FF63-3D491988118F">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 19:37:25 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rooms_profit" id="A471C911-361F-2BF3-EBA2-02C8ED5551BF">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-09 22:25:40 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_superhost" id="959833E6-7DA6-6162-F006-82E18D59788C">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-09 22:04:42 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_internet" id="7D1ECDD8-8490-F1D4-2430-0A21A7C20CA1">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 19:48:03 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_kitchen" id="D0A24061-AEFC-5018-9E27-79AB51763DD2">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 19:50:07 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="CA7B712E-C51B-3E64-980A-B71FF2A45F75">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-09 22:01:16 UTC</createdTime>
+<generatorID>B5918B4B-DA7D-C63A-172D-DB67F22E8F80</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<referedAttribute>A8D39D57-376A-A51E-4D0A-B9240776AE4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="EA9BE316-CD0D-68F3-97FE-408329822298">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-09 22:01:24 UTC</createdTime>
+<generatorID>0790F61D-5655-A40E-61BE-AAF175EA081C</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<referedAttribute>7936B14C-4334-AFFF-15EA-05FCA8CBE576</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="59F7745F-2EF4-961C-0506-5569F46212BB">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-09 22:01:48 UTC</createdTime>
+<generatorID>98A0AAE0-DBF9-653C-F8F3-4C0ABB1B39CA</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<referedAttribute>EA4E54D3-F2F2-C59B-B7E0-8BB3A4788D22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,17 @@
+rm -r labs/spark/projekt2
+
+mkdir -p labs/spark/projekt2
+mkdir labs/spark/projekt2/externaldatabase/
+
+mkdir download/
+cd download
+wget http://www.cs.put.poznan.pl/kjankiewicz/bigdata/projekt2/airbnb.zip
+unzip airbnb.zip
+cd ../
+mv download/airbnb/* labs/spark/projekt2/externaldatabase/
+rm -r download
+
+hadoop fs -rm -r labs/spark/projekt2/
+hadoop fs -mkdir -p labs/spark/projekt2/externaldatabase
+hadoop fs -copyFromLocal labs/spark/projekt2/externaldatabase/* labs/spark/projekt2/externaldatabase
+hadoop fs -ls labs/spark/projekt2/externaldatabase

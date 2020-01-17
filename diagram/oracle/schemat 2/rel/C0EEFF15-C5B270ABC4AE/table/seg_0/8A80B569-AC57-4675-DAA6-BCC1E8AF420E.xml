@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A80B569-AC57-4675-DAA6-BCC1E8AF420E" name="d_room_type">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>CDC4CFC7-F3B0-AD58-C2E1-A2DF08735D28</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C37CC183-5F75-B441-C1F1-2B8B71E57D2E">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>A8D39D57-376A-A51E-4D0A-B9240776AE4D</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="646AC296-FDF5-924D-3411-CA2C7D1375A6">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>08E6810F-270F-0BEB-C176-2CA9CB8F6E71</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5318E412-66FB-8618-7336-6685B4E899DB" name="d_room_type_PK">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>7571F4CF-31DF-627C-A100-8E32D43A421E</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C37CC183-5F75-B441-C1F1-2B8B71E57D2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="BA28A8BD-D864-431B-0DC5-72DFBC00D507">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 18:21:30 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95EA60A2-436A-44E8-2CF2-FEB2718DC1C2" name="d_borough">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>B4BE0352-669E-C358-0ADF-D7A78B0012C7</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="311D1A10-90DF-F613-A21A-F782CE438F2C">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>EA4E54D3-F2F2-C59B-B7E0-8BB3A4788D22</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="DCCB90C8-1E97-5CE0-CDCF-10B37B9D4A91">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>62A64B98-6948-1F95-6F06-6B43C755E5CD</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="6AE8D812-97BA-AAF8-37BA-B90A812EF1D8">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>5CCA0843-0118-D43B-F9E4-2A49CC1B231E</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D8A316F-7348-5354-BF57-3C1E1EEA883C" name="d_borough_PK">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>1E12EEC1-9DEE-04AE-1ADA-EA01EC0962B7</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="311D1A10-90DF-F613-A21A-F782CE438F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

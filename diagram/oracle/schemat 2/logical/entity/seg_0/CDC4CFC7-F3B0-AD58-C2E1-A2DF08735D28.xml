@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDC4CFC7-F3B0-AD58-C2E1-A2DF08735D28" name="d_room_type">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 18:23:57 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A8D39D57-376A-A51E-4D0A-B9240776AE4D">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 18:24:46 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="08E6810F-270F-0BEB-C176-2CA9CB8F6E71">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-08 18:24:49 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7571F4CF-31DF-627C-A100-8E32D43A421E" name="Room_type PK">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-09 22:01:11 UTC</createdTime>
+<ownerDesignName>schemat 2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C0EEFF15-BBAB-AFD0-7CC0-C5B270ABC4AE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8D39D57-376A-A51E-4D0A-B9240776AE4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

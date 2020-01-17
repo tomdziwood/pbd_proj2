@@ -1,0 +1,22 @@
+1. Średni roczny dochód, jaki gospodarze uzyskują w zależności od tego, jakie posiadają udogodnienia ich pokoje (Amenity), w zależności od typów pokoi w wybranym kraju.
+
+
+2. Dzielnice świata (neighbourhood_cleansed) z największą liczbą wypożyczonych mieszkań w ciągu danego miesiąca - jedno mieszkanie liczone jako (liczba dni zajętych danego miesiąca / liczba dni miesiąca),
+  na wyjściu podawane jakieś top x obszarów z uzyskaną średnio największą liczbą zajętych lokacji. Pod uwagę brane są jedynie mieszkania, których gospodarz jest oznaczony jako 'superhost'
+  
+  Dzielnice świata (neighbourhood_cleansed) z największą średnią liczbą wypożyczonych mieszkań w ciągu danego miesiąca - jedno mieszkanie liczone jako (liczba dni zajętych danego miesiąca / liczba dni miesiąca),
+  na wyjściu podawane jakieś top x obszarów z uzyskaną średnio największą liczbą zajętych lokacji. Pod uwagę brane są jedynie mieszkania, których gospodarz jest oznaczony jako 'superhost'
+  
+ 
+3. Wyznaczenie liczby wystawionych recenzji pokoi w danych miesiącach w danych miastach.
+
+średnia liczba wypożyczonych mieszkań w ciągu miesięcy, w zależności od dzielnicy (seria danych) dla wybranego miasta, 
+
+3. średnia zajętość (oś y) mieszkań w zależności od bycia super gospodarza (seria danych) w zależności od typu pokoju (oś x), dla wybranego roku (dajmy 2018)
+
+
+
+Tabela faktów zawiera miary dotyczące
+danego typu pokoju
+danego dnia
+w danej dzielnicy

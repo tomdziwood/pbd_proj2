@@ -1,0 +1,21 @@
+Tabela faktów zawiera miary dotyczące pokoi
+	danego typu 		(Room_type)
+	w danym dniu		(Time)
+	w danej dzielnicy	(Borough)
+	
+Miary te to:
+	liczba wszystkich pokoi				(rooms_total)
+	liczba zajętych pokoi				(rooms_rented)
+	dochód uzyskany z wynajętych pokoi	(rooms_profit)
+
+Miary te są osobno zliczone w zależności czy (pseudowymiary):
+	gospodarz jest superhostem	(is_superhost)
+	jest internet				(is_internet)
+	jest telewizja				(is_TV)
+
+
+
+Wykonywane analizy:
+1. Średni roczny dochód, jaki gospodarze uzyskują w zależności od tego, jakie posiadają udogodnienia ich pokoje (Amenity), w zależności od typów pokoi w wybranym kraju.
+2. Średnia liczba wypożyczonych mieszkań w ciągu miesięcy, w zależności od dzielnicy (seria danych) dla wybranego miasta.
+3. Średnia zajętość (oś y) mieszkań w zależności od bycia super gospodarzem (seria danych) w zależności od typu pokoju (oś x), dla wybranego roku (dajmy 2018).

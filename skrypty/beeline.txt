@@ -1,0 +1,67 @@
+beeline -n tomdziwood -u jdbc:hive2://localhost:10000/default
+
+drop database etl_airbnb cascade;
+
+create database etl_airbnb;
+
+use etl_airbnb;
+
+CREATE TABLE `d_time` (
+`id` int,
+`year` int,
+`month` int,
+`day` int)
+ROW FORMAT SERDE
+'org.apache.hadoop.hive.ql.io.orc.OrcSerde'
+STORED AS INPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
+OUTPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';
+
+CREATE TABLE `d_room_type` (
+`id` int,
+`name` string)
+ROW FORMAT SERDE
+'org.apache.hadoop.hive.ql.io.orc.OrcSerde'
+STORED AS INPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
+OUTPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';
+
+CREATE TABLE `d_city` (
+`id` int,
+`name` string)
+ROW FORMAT SERDE
+'org.apache.hadoop.hive.ql.io.orc.OrcSerde'
+STORED AS INPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
+OUTPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';
+
+CREATE TABLE `d_borough` (
+`id` int,
+`name` string,
+`city_id` int)
+ROW FORMAT SERDE
+'org.apache.hadoop.hive.ql.io.orc.OrcSerde'
+STORED AS INPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
+OUTPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';
+
+CREATE TABLE `f_facts` (
+`room_type_id` int,
+`time_id` int,
+`borough_id` int,
+`rooms_total` int,
+`rooms_rented` int,
+`rooms_profit` float,
+`is_superhost` boolean,
+`is_internet` boolean,
+`is_kitchen` boolean)
+ROW FORMAT SERDE
+'org.apache.hadoop.hive.ql.io.orc.OrcSerde'
+STORED AS INPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
+OUTPUTFORMAT
+'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat';

@@ -1,0 +1,877 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1CCF9A3-4A53-8D6C-50AE-FA3A5CD68B82" name="Listing">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 13:56:26 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8AE1ECFD-1BE4-8E59-9712-CCC25BF4E1A3">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 13:57:28 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="listing_url" id="C989E116-5A65-647B-C884-D978FC3B95AE">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:27:24 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scrape_id" id="6B646757-1065-58DA-9952-6AEF0988D094">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:27:38 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_scraped" id="5A0F3BC8-FF86-391D-40A9-9ACFEA0CDA2C">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:27:44 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="1980B769-B8BC-D9E1-329A-378D19D06986">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:27:50 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="summary" id="93DD0F75-F989-9AFE-F561-E52DF02BD4CC">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:27:53 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="space" id="2740972D-D95F-E210-3A0B-C2855C5CF5D5">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:27:56 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="2AF66181-94A2-8B91-2AA9-7357FD9CC3E5">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="experiences_offered" id="7EF40799-8C30-A8BF-9910-553D90B95F68">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:03 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="neighbourhood_overview" id="E550B1FF-17B1-7F2C-A071-8EC2834EDE5C">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:10 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="notes" id="D6CEB196-0100-510E-6F31-271941DE0F2C">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:18 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transit" id="0FD0C41B-F809-1CFB-7C41-C52F6BEFED3C">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:21 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="access" id="4E34DCFB-7344-5520-F42B-44985B7BADC4">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:24 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="interaction" id="CAF91DE2-73AD-E560-DE1F-85843F24C578">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:26 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hose_rules" id="69D02201-396F-6499-5DDE-525E4F0DB231">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:31 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="thumbnail_url" id="C8ADB7AA-853A-88A3-315B-065EED595C1F">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:37 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="medium_url" id="4AD807AD-212D-D109-F097-7D31C834DE90">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:43 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="picture_url" id="1A39DEE6-D071-EC8D-28B6-6A9181F9BAA2">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:47 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="xl_picture_url" id="3F17384F-BD15-5395-96A7-EE605D47CFA0">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:51 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_host" id="E02A4F75-F4FA-729C-7C0F-637D183A6475">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:28:58 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="A55DCF80-15B0-E607-C90F-FF7089112A50">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:29:29 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="neighbourhood" id="E2B613AA-FCA9-9BEB-0085-DF6BA42EC20F">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:29:44 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="neighbourhood_cleansed" id="F5F95C94-B2AA-5327-7CBE-C7BFB14BF4D3">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:29:51 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="neighbourhood_group_cleansed" id="A6162471-8CF6-EF64-59CE-FD77E83E6255">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:29:58 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="0B0F8B91-6413-05E8-B03F-5C08ACB47977">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:07 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="8B54F992-CAB3-D532-2903-8B49F11D84D7">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:09 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zipcode" id="CF82CB5B-6639-E11E-8E24-4466360262F9">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:11 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="market" id="487BAD6C-9FEC-D5BF-E69B-BBE00AC462F0">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:14 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="smart_location" id="450635F9-D379-8ECF-B2C6-FA5B1423D191">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:17 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_code" id="4CB554A6-EDA4-2C55-93D5-583670643950">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:21 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="D67ED8EC-D308-57C5-C48D-24FB110B7FF2">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:28 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="21FD87F1-F0D0-D1E8-8F4C-7FB74AB82E34">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="81B726B4-0955-1766-8531-17AF33F03E6D">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:35 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_location_exact" id="48C48863-7BDD-8AF9-BD7B-B9CECF810363">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:39 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="property_type" id="F1526093-8B7A-0B20-D906-9105F2D50555">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:44 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="room_type" id="7D337CE0-C3C9-C8F7-DFA1-8A45BEBF4DCE">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:49 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accommodates" id="74B2EAD9-166F-C3C8-0114-8C354E90F9AF">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:52 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bathrooms" id="5A5C0A77-3030-BDDE-6457-9430BBD2AD11">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:57 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bedrooms" id="04361C9A-2D2E-936B-F61B-A33E0AAF80AB">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:30:59 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="beds" id="6220EA9F-A1E2-F437-AB5E-B27933076314">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:02 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bed_type" id="B51D90DB-B23B-63FD-B094-E2AE88094ECC">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:03 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="square_feet" id="23A1D90C-0949-B096-1A63-727048999536">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:13 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="F3094FB0-5936-9454-D2A8-CBC2200027E7">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:26 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weekly_price" id="9D8BEB01-490C-BD13-B593-6AC6AA6AD38B">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:31 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monthly_price" id="DA538E4D-AAE2-F07A-23E2-4C357517C792">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:35 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="security_deposit" id="472C270F-82F4-C38B-78E4-F98511D38CFC">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:41 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cleaning_fee" id="BFFBC733-B779-DE58-916A-56AD5D65050B">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:47 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="guests_included" id="52BA1EAB-6319-F915-EF15-41822CA16242">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:31:54 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="extra_people" id="EA36436E-3910-8A77-BC9E-DE8FCEFBA8FC">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:10 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minimum_nights" id="F9A9B735-A7DC-9994-203A-EC09BFAA54CB">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:15 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maximum_nights" id="2AFCAE8E-ABC2-C8B0-088D-EFA8171A47F1">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:20 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calendar_updated" id="59CD96DB-0D8D-B50E-0F91-A37497779521">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:25 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="has_availability" id="F77879F8-B90D-2853-A01B-E59EADCB92FB">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:29 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="availability_30" id="3AD3CC7A-D877-E3AC-97F1-0CFE541C84DD">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:37 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="availability_60" id="6DA98764-934C-0740-4449-BE24AF61AF5A">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:46 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="availability_90" id="5DD74C2A-9BAA-CE49-5E5D-2B19FFF0F66F">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:50 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="availability_365" id="4025607C-E217-5B12-5142-6AF49CFBDB2C">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:32:55 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calendar_last_scraped" id="2E1A48CE-99E1-D487-B3A2-95A7F852F713">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:33:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number_of_reviews" id="B25676D9-768B-5390-E442-C8DB5A773C28">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:33:08 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_review" id="42ABF010-3486-FD81-6AD3-698398930B44">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:33:22 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_review" id="56BD4C67-211F-75B3-2002-1298DC68C038">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:33:29 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review_scores_rating" id="82DFBDD0-F755-5C0C-BCA3-7870D2CED673">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:33:33 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review_scores_accuracy" id="8C69D7A5-EC64-4DCC-3BCC-B982358AD664">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:33:58 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review_scores_cleanliness" id="9F304583-4C03-383C-849F-4B6AF4DAB1E3">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:08 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review_scores_checkin" id="E157A6B7-387D-0745-46B5-5CEC97F1F623">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:15 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review_scores_communication" id="243085C9-E630-2203-7A38-7C459A7D53B3">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:19 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review_scores_location" id="D791ED16-963F-59E7-BCCF-F23A6F9D544E">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:26 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review_scores_value" id="E5705F0C-7927-D097-B38E-8178AEE1BE39">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="requires_license" id="DE7E384A-4843-BFE3-F185-FBAA8496A353">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:36 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="license" id="01A61EB8-220E-304C-D1F9-04ABBD2D1A7E">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:46 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jurisdiction_names" id="88EFF0A2-C150-A79C-0E18-3F0E0171FF59">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:50 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instant_bookable" id="0096595E-3CFE-4F8D-F770-DE64D19CF730">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:34:59 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_business_travel_ready" id="D9DE3D28-4E43-BBC9-80EC-63104FB5FF27">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:35:06 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cancellation_policy" id="076CB22A-64E6-575A-0962-1A3E21970AC6">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:35:13 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="require_guest_profile_picture" id="137D865F-37FA-3384-4D82-FD62566011F9">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:35:18 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="require_guest_phone_verification" id="B6E12F75-269D-D2F5-C01F-F70E36CB0E03">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:35:37 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calculated_host_listings_count" id="1FFB22BA-212D-A17D-6FB2-8279B792647D">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:35:56 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reviews_per_month" id="C3413F2B-ECBF-E73A-8E1E-B0D51FF078B0">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 14:36:10 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<engineerTo>
+<item key="0349D348-CBFD-12B9-4CA9-09DC4E6D275C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

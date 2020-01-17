@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="schemat" id="D8C614FF-AB0E-1811-27DB-FB7A6911726C" version="3.5">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-03 13:21:56 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D8C614FF-AB0E-1811-27DB-FB7A6911726C</designId>
+</OSDM_Design>

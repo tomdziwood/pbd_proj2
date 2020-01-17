@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91FEC84A-99FA-BDC4-C35E-73EDC0F9C5B4" name="d_time">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>75D27624-7EB2-DBAA-D4DC-8F6FAF86FFEF</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="79C1B982-D74B-A17E-73F5-3FFF67D642AE">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>7936B14C-4334-AFFF-15EA-05FCA8CBE576</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year" id="3868BE0D-E1E8-0137-AF69-4210F30EEFD6">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>C8A15909-AACF-63D3-C884-62CF9A20DA8F</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="month" id="613859FC-10B2-7B0F-A883-FAA0F2D49AE5">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>7D5B52E9-E0D7-C6FB-D7CF-1C10092BC81A</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="day" id="62EA8DF9-0C00-E3F9-6DF1-62157291F9AD">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>F6F6C485-85B2-6FE0-9C35-F14193A0C83F</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C5CEF70-6BBD-AAA0-7A50-B7F1D327F10C" name="d_time_PK">
+<createdBy>woodpecker</createdBy>
+<createdTime>2020-01-15 17:49:03 UTC</createdTime>
+<generatorID>F315D168-A801-61E2-AE77-49DC3872C3A2</generatorID>
+<ownerDesignName>schemat 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79C1B982-D74B-A17E-73F5-3FFF67D642AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
