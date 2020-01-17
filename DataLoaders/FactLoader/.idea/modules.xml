@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FactLoader.iml" filepath="$PROJECT_DIR$/.idea/modules/FactLoader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FactLoader-build.iml" filepath="$PROJECT_DIR$/.idea/modules/FactLoader-build.iml" />
-    </modules>
-  </component>
-</project>
