@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77d03259-5a15-47f3-ab24-cb5c3a4247dc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1WOCtWOIA2iGNrhk9eZAsfneQot" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager">
+    <configuration name="FactLoader" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="FactLoader" />
+      <module name="FactLoader" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Downloads/airbnb/airbnb" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FactLoader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="FactLoader" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="factloader [file:/home/deloryn/IdeaProjects/FactLoader/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="FactLoader-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3158221592123" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="1349209718" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2912332145" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../SparkRddOptimization" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77d03259-5a15-47f3-ab24-cb5c3a4247dc" name="Default Changelist" comment="" />
+      <created>1579011468689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579011468689</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579281929547">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1579281929547" />
+    <state x="692" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579012053622">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="692" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1579012053622" />
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom" timestamp="1579282628455">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1579282628455" />
+    <state width="1874" height="277" key="GridCell.Tab.0.center" timestamp="1579282628455">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1579282628455" />
+    <state width="1874" height="277" key="GridCell.Tab.0.left" timestamp="1579282628454">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1579282628454" />
+    <state width="1874" height="277" key="GridCell.Tab.0.right" timestamp="1579282628455">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1579282628455" />
+    <state x="284" y="143" key="SettingsEditor" timestamp="1579015207926">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="284" y="143" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1579015207926" />
+    <state x="616" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579275891658">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="616" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1579275891658" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1579281330445">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1579281330445" />
+  </component>
+</project>
