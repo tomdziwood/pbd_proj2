@@ -3,17 +3,16 @@ import org.apache.spark.sql.functions._
 object BoroughLoader extends App {
   override def main(args: Array[String]) {
     val usage = """
-    Usage: boroughloader input_path output_path
+    BoroughLoader needs 1 argument: input_files_dir
   """
-    if (args.length != 2) println(usage)
+    if (args.length != 1) println(usage)
     else {
-      val inputPath = args(0)
-      val outputPath = args(1)
-      loadBoroughs(inputPath, outputPath)
+      val inputDirPath = args(0)
+      loadBoroughs(inputDirPath)
     }
   }
 
-  def loadBoroughs(inputPath: String, outputPath: String): Unit = {
+  def loadBoroughs(inputPath: String): Unit = {
     def getListingsFileNames: Array[String] = {
       new java.io.File(inputPath)
         .listFiles
@@ -27,9 +26,8 @@ object BoroughLoader extends App {
     val spark = org.apache.spark.sql.SparkSession.builder
       .master("local")
       .appName("BoroughLoader")
+      .enableHiveSupport()
       .getOrCreate
-
-    val sc = spark.sparkContext
 
     val boroughDF = getListingsFileNames.map(fileName => {
       val path = inputPath + "/" + fileName
@@ -54,7 +52,6 @@ object BoroughLoader extends App {
       .withColumnRenamed("neighbourhood_cleansed", "name")
       .orderBy("id")
 
-    boroughDF.show(100)
-
+    boroughDF.write.mode("append").saveAsTable("d_borough")
   }
 }

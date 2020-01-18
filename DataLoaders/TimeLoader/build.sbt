@@ -1,4 +1,4 @@
-name := "FactLoader"
+name := "TimeLoader"
 
 version := "0.1"
 
