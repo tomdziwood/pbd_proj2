@@ -1,0 +1,20 @@
+import java.io.File
+import org.apache.spark.sql.SparkSession
+
+val warehouseLocation = new File("spark-warehouse").getAbsolutePath
+val spark = SparkSession.builder().appName("HiveProj2").config("spark.sql.warehouse.dir", warehouseLocation).enableHiveSupport().getOrCreate()
+
+spark.sql("drop database if exists etl_airbnb cascade")
+spark.sql("create database if not exists etl_airbnb")
+spark.sql("use etl_airbnb")
+
+spark.sql("CREATE TABLE d_time (id string, year int, month int, day int) ROW FORMAT SERDE 'org.apache.hadoop.hive.ql.io.orc.OrcSerde' STORED AS INPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'")
+
+spark.sql("CREATE TABLE d_room_type (id string, name string) ROW FORMAT SERDE 'org.apache.hadoop.hive.ql.io.orc.OrcSerde' STORED AS INPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'")
+
+spark.sql("CREATE TABLE d_borough (id string, name string, city string) ROW FORMAT SERDE 'org.apache.hadoop.hive.ql.io.orc.OrcSerde' STORED AS INPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'")
+
+spark.sql("CREATE TABLE f_facts (id_borough string, id_room_type string, id_time string, rooms_total int, rooms_rented int, rooms_profit float, is_superhost boolean, is_internet boolean, is_kitchen boolean) ROW FORMAT SERDE 'org.apache.hadoop.hive.ql.io.orc.OrcSerde' STORED AS INPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'")
+
+spark.sql("select current_database()").show()
+spark.sql("show tables").show()
