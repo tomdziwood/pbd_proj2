@@ -1,2 +1,11 @@
-*/target
-*/.idea
+Factloader/target
+FactLoader/.idea
+
+BoroughLoader/target
+BoroughLoader/.idea
+
+TimeLoader/target
+TimeLoader/.idea
+
+RoomTypeLoader/target
+RoomTypeLoader/.idea
