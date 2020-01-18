@@ -1,11 +1,11 @@
-Factloader/target
+Factloader/target/*
 FactLoader/.idea
 
-BoroughLoader/target
+BoroughLoader/target/*
 BoroughLoader/.idea
 
-TimeLoader/target
+TimeLoader/target/*
 TimeLoader/.idea
 
-RoomTypeLoader/target
+RoomTypeLoader/target/*
 RoomTypeLoader/.idea
