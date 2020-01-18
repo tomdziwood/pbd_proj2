@@ -1,2 +1,2 @@
-FactLoader/target
-FactLoader/.idea
+*/target
+*/.idea
