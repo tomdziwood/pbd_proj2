@@ -30,6 +30,7 @@ object FactLoader extends App {
     val listings = spark
       .read
       .format("csv")
+      .option("multiline", "true")
       .option("header", "true")
       .option("sep", ",")
       .option("quote", "\"")

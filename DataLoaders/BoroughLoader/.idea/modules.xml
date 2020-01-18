@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boroughloader.iml" filepath="$PROJECT_DIR$/.idea/modules/boroughloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BoroughLoader.iml" filepath="$PROJECT_DIR$/.idea/modules/BoroughLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BoroughLoader-build.iml" filepath="$PROJECT_DIR$/.idea/modules/BoroughLoader-build.iml" />
     </modules>
   </component>
 </project>
