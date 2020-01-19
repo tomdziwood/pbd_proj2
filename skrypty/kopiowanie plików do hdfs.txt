@@ -1,0 +1,4 @@
+hadoop fs -rm -r labs/spark/projekt2/
+hadoop fs -mkdir -p labs/spark/projekt2/externaldatabases
+hadoop fs -copyFromLocal labs/spark/projekt2/externaldatabases/* labs/spark/projekt2/externaldatabases
+hadoop fs -ls labs/spark/projekt2/externaldatabases

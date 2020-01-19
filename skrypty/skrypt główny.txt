@@ -1,0 +1,28 @@
+# To jest skrypt zawierający wszystkie polecenia po utworzeniu folderu aż po uruchomienie wszystkich procesów etl
+# Najpierw trzeba wykonać "kopiowanie plików z zasobnika.txt", aby mieć załadowane wszystkie skrypty, dane, jar'y w systemie lokalnym klastra
+#
+# Komendy pochodzą kolejno z plików:
+# 1. kopiowanie plików do hdfs
+# 2. hurtownia spark
+# 3. uruchamianie procesów etl
+
+
+# 1.
+hadoop fs -rm -r labs/spark/projekt2/
+hadoop fs -mkdir -p labs/spark/projekt2/externaldatabases
+hadoop fs -copyFromLocal labs/spark/projekt2/externaldatabases/* labs/spark/projekt2/externaldatabases
+hadoop fs -ls labs/spark/projekt2/externaldatabases
+
+
+# 2.
+spark-shell < labs/spark/projekt2/skrypty/hurtownia\ spark.txt
+
+
+# 3.
+spark-submit --class BoroughLoader --master yarn --num-executors 5 --driver-memory 512m --executor-memory 512m --executor-cores 1 labs/spark/projekt2/etl/borough-loader.jar labs/spark/projekt2/externaldatabases
+
+spark-submit --class TimeLoader --master yarn --num-executors 5 --driver-memory 512m --executor-memory 512m --executor-cores 1 labs/spark/projekt2/etl/time-loader.jar labs/spark/projekt2/externaldatabases
+
+spark-submit --class RoomTypeLoader --master yarn --num-executors 5 --driver-memory 512m --executor-memory 512m --executor-cores 1 labs/spark/projekt2/etl/room-type-loader.jar labs/spark/projekt2/externaldatabases
+
+spark-submit --class FactLoader --master yarn --num-executors 5 --driver-memory 512m --executor-memory 512m --executor-cores 1 labs/spark/projekt2/etl/fact-loader.jar labs/spark/projekt2/externaldatabases

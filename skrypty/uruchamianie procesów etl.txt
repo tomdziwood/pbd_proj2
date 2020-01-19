@@ -1,0 +1,7 @@
+spark-submit --class BoroughLoader --master yarn --num-executors 5 --driver-memory 512m --executor-memory 512m --executor-cores 1 labs/spark/projekt2/etl/borough-loader.jar labs/spark/projekt2/externaldatabases
+
+spark-submit --class TimeLoader --master yarn --num-executors 5 --driver-memory 512m --executor-memory 512m --executor-cores 1 labs/spark/projekt2/etl/time-loader.jar labs/spark/projekt2/externaldatabases
+
+spark-submit --class RoomTypeLoader --master yarn --num-executors 5 --driver-memory 512m --executor-memory 512m --executor-cores 1 labs/spark/projekt2/etl/room-type-loader.jar labs/spark/projekt2/externaldatabases
+
+spark-submit --class FactLoader --master yarn --num-executors 5 --driver-memory 512m --executor-memory 512m --executor-cores 1 labs/spark/projekt2/etl/fact-loader.jar labs/spark/projekt2/externaldatabases

@@ -1,0 +1,1 @@
+spark-shell < labs/spark/projekt2/skrypty/hurtownia\ spark.txt

@@ -1,10 +1,14 @@
 rm -r labs/spark/projekt2
 mkdir -p labs/spark/projekt2
-mkdir labs/spark/projekt2/externaldatabase/
-hadoop fs -copyToLocal gs://zasobnik_pbd/labs/spark/projekt2/externaldatabase/* labs/spark/projekt2/externaldatabase
 
+rm -r labs/spark/projekt2/skrypty/
+mkdir labs/spark/projekt2/skrypty/
+hadoop fs -copyToLocal gs://zasobnik_pbd/labs/spark/projekt2/skrypty/* labs/spark/projekt2/skrypty
 
-hadoop fs -rm -r labs/spark/projekt2/
-hadoop fs -mkdir -p labs/spark/projekt2/externaldatabase
-hadoop fs -copyFromLocal labs/spark/projekt2/externaldatabase/* labs/spark/projekt2/externaldatabase
-hadoop fs -ls labs/spark/projekt2/externaldatabase
+rm -r labs/spark/projekt2/externaldatabases/
+mkdir labs/spark/projekt2/externaldatabases/
+hadoop fs -copyToLocal gs://zasobnik_pbd/labs/spark/projekt2/externaldatabases/* labs/spark/projekt2/externaldatabases
+
+rm -r labs/spark/projekt2/etl/
+mkdir labs/spark/projekt2/etl/
+hadoop fs -copyToLocal gs://zasobnik_pbd/labs/spark/projekt2/etl/* labs/spark/projekt2/etl
