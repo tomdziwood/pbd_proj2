@@ -38,6 +38,6 @@ object TimeLoader extends App {
         dates("date").substr(9, 2).as("day")
       )
 
-    finalDF.write.mode("append").saveAsTable("d_time")
+    finalDF.write.mode("append").format("hive").saveAsTable("etl_airbnb.d_time")
   }
 }

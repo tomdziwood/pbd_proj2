@@ -81,9 +81,9 @@ object FactLoader extends App {
         sum("profit").alias("rooms_profit"))
       .orderBy("borough", "date", "room_type", "is_kitchen", "is_internet", "is_superhost")
 
-    val boroughs = spark.sql("select * from d_borough")
-    val times = spark.sql("select * from d_time")
-    val roomTypes = spark.sql("select * from d_room_type")
+    val boroughs = spark.sql("select * from etl_airbnb.d_borough")
+    val times = spark.sql("select * from etl_airbnb.d_time")
+    val roomTypes = spark.sql("select * from etl_airbnb.d_room_type")
 
     val factsWithBoroughs = rawFacts
       .join(boroughs, rawFacts("borough") === boroughs("name"))
@@ -100,13 +100,15 @@ object FactLoader extends App {
           "is_superhost"
         )
 
-    val factsWithTimes = factsWithBoroughs
+    val factsWithBoroughsExt = factsWithBoroughs
       .withColumn("year", factsWithBoroughs("date").substr(0, 4))
       .withColumn("month", factsWithBoroughs("date").substr(6, 2))
       .withColumn("day", factsWithBoroughs("date").substr(9, 2))
-      .join(times, factsWithBoroughs("year") === times("year") &&
-                   factsWithBoroughs("month") === times("month") &&
-                   factsWithBoroughs("day") === times("day"))
+
+    val factsWithTimes = factsWithBoroughsExt
+      .join(times, factsWithBoroughsExt("year") === times("year") &&
+                   factsWithBoroughsExt("month") === times("month") &&
+                   factsWithBoroughsExt("day") === times("day"))
       .withColumnRenamed("id", "id_time")
       .select(
         "id_borough",
@@ -135,6 +137,6 @@ object FactLoader extends App {
         "is_kitchen"
       )
 
-    finalFacts.write.mode("append").saveAsTable("f_facts")
+    finalFacts.write.mode("append").format("hive").saveAsTable("etl_airbnb.f_facts")
   }
 }

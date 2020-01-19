@@ -40,6 +40,6 @@ object RoomTypeLoader extends App {
         "name"
       )
 
-    finalDF.write.mode("append").saveAsTable("d_room_type")
+    finalDF.write.mode("append").format("hive").saveAsTable("etl_airbnb.d_room_type")
   }
 }

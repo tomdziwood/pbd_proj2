@@ -24,7 +24,6 @@ object BoroughLoader extends App {
       fileName.dropRight(12)
 
     val spark = org.apache.spark.sql.SparkSession.builder
-      .master("local")
       .appName("BoroughLoader")
       .enableHiveSupport()
       .getOrCreate
@@ -52,6 +51,6 @@ object BoroughLoader extends App {
       .withColumnRenamed("neighbourhood_cleansed", "name")
       .orderBy("id")
 
-    boroughDF.write.mode("append").saveAsTable("d_borough")
+    boroughDF.write.mode("append").format("hive").saveAsTable("etl_airbnb.d_borough")
   }
 }
