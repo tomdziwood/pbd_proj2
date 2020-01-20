@@ -10,8 +10,3 @@ unzip airbnb.zip
 cd ../
 mv download/airbnb/* labs/spark/projekt2/externaldatabase/
 rm -r download
-
-hadoop fs -rm -r labs/spark/projekt2/
-hadoop fs -mkdir -p labs/spark/projekt2/externaldatabase
-hadoop fs -copyFromLocal labs/spark/projekt2/externaldatabase/* labs/spark/projekt2/externaldatabase
-hadoop fs -ls labs/spark/projekt2/externaldatabase
